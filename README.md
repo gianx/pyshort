@@ -28,11 +28,11 @@ shorten, title = myshort.generate(astring="http://www.gianlucanieri.com",checksi
 
 Note that:
 
-_astring_: is the string/url you want to shorten;
-_checksite_: is True if you want to get the site title, False by default
+__astring__: is the string/url you want to shorten;
+__checksite__: is True if you want to get the site title, False by default
 
 The class raises the following errors:
 
-_myshort.SiteConnectionError_: if __checksite__  __==__  __True__ and the script cannot connect to the url;
-_myshort.HtmlParsingError_I if __checksite__  __==__  __True__ and the script cannot parse the result page;
+__myshort.SiteConnectionError__: if _checksite_  _==_  _True_ and the script cannot connect to the url;
+__myshort.HtmlParsingError__: if _checksite_  _==_  _True_ and the script cannot parse the result page;
 
