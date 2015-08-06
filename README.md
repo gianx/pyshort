@@ -29,6 +29,7 @@ shorten, title = myshort.generate(astring="http://www.gianlucanieri.com",checksi
 Note that:
 
 __astring__: is the string/url you want to shorten;
+
 __checksite__: is True if you want to get the site title, False by default
 
 The class raises the following errors:
